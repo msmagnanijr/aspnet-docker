@@ -56,7 +56,7 @@ $ docker build -t dotnet-api-demo:latest .
 ### Run your app in a new container
 
 ```
-# run a container from your .NET 5 API image:
+# run a container from your .NET 6 API image:
 $ docker run -d -p 8888:80 --name api dotnet-api-demo:latest
 
 # check the container logs:
